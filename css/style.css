@@ -139,3 +139,13 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+.container {
+  width: 1160px;
+}
+
+button {
+  background-color: #F15525;
+  border-radius: 82px;
+  color: #FFFFFF;
+}
