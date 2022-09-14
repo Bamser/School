@@ -149,3 +149,80 @@ button {
   border-radius: 82px;
   color: #FFFFFF;
 }
+
+header {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #EAF2F5;
+}
+
+.header {
+  padding: 18px 21px;
+  max-height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 75px;
+}
+.header a:hover {
+  color: #F15525;
+}
+.header ul {
+  display: flex;
+  gap: 41px;
+}
+.header ul li {
+  font-size: 13px;
+}
+.header__reg {
+  display: flex;
+  align-items: center;
+}
+.header__reg a {
+  font-size: 13px;
+  color: #3C3E50;
+}
+.header__button {
+  margin-left: 15px;
+  padding: 9px 15px;
+  display: flex;
+  align-items: center;
+  background-color: #38BFF2;
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 34px;
+}
+.header__button:hover {
+  background-color: #F15525;
+}
+.header__button a {
+  color: #FFFFFF;
+}
+.header__button a:hover {
+  color: #FFFFFF;
+}
+.header__button img {
+  margin-right: 5px;
+  width: 10px;
+  height: 9px;
+}
+.header__burger {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .header__button {
+    padding: 15px 20px;
+  }
+  .header nav {
+    display: none;
+  }
+  .header__reg-link {
+    display: none;
+  }
+  .header__burger {
+    display: block;
+  }
+}
