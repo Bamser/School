@@ -2,7 +2,9 @@ header {
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #EAF2F5;
+    background: url(../image/header__bg.webp);
+    background-repeat: no-repeat;
+    background-position-x: 65%;
 }
 
 .header {
@@ -58,6 +60,56 @@ header {
     &__burger {
         display: none;
     }
+    &__main {
+        padding-bottom: 70px;
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        &-desc {
+            max-width: 645px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            &-title {
+                font-weight: 500;
+                font-size: 46px;
+                & span {
+                    font-weight: 700;
+                }
+            }
+            &-text {
+                padding-top: 15px;
+                max-width: 370px;
+                margin-top: 45px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 1.4;
+                border-top: 1px solid #DEDEDE;
+            }
+            &-button {
+                position: relative;
+                margin-right: 60px;
+                margin-top: 19px;
+                padding: 27px 75px 28px 45px;
+                font-size: 20px;
+                letter-spacing: -0.03em;
+                &::before {
+                    content: '';
+                    background: url(../image/button__arrow.svg);
+                    background-repeat: no-repeat;
+                    width: 15px;
+                    height: 25px;
+                    position: absolute;
+                    top: 30px;
+                    right: 40px;
+                }
+            }
+        }
+    }
+}
+.bracket {
+    color: #F15525;
 }
 
 @media (max-width:480px) {
