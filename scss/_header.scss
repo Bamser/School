@@ -1,10 +1,10 @@
 header {
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    min-width: 1400px;
+    padding: 15px 15px 30px 15px;
     background: url(../image/header__bg.webp);
     background-repeat: no-repeat;
     background-position-x: 65%;
+
 }
 
 .header {
@@ -111,21 +111,11 @@ header {
 .bracket {
     color: #F15525;
 }
-
-@media (max-width:480px) {
-    .header  {
-        &__button {
-            padding: 15px 20px;
-        }
-        & nav {
-            display: none;
-        }
-        &__reg-link {
-            display: none;
-        }
-        &__burger {
-            display: block;
-        }
-    }
-
+.arrow__down {
+   margin: 0 auto;
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    padding: 14px;
+    border-radius: 50%;
 }
