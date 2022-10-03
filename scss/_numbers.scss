@@ -1,0 +1,75 @@
+.numbers {
+    &__items {
+        padding: 55px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFFFFF;
+        border-radius: 40px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        max-width: 267px;
+        gap: 20px;
+        text-align: left;
+        &:not(:first-child) {
+            border-left: 1px solid #EAF2F5;
+            margin-right: 40px;
+            padding-left: 50px;
+        }
+        &-num {
+            font-weight: 700;
+            font-size: 77px;
+            color: #38BFF2;
+        }
+        &-title {
+            text-align: left;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 1.2;
+            color: #22253B;
+        }
+        &-text {
+            font-size: 16px;
+            line-height: 1.4;
+            color: #22253B;
+        }
+    }
+    &__desc {
+        margin: auto;
+        max-width: 540px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+        background-color: #FFFFFF;
+        border-radius: 110px;
+        padding: 12px 37px 14px 20px;
+        &-button {
+            min-width: 250px;
+            position: relative;
+            padding: 25px 75px 25px 45px;
+            font-size: 16px;
+            letter-spacing: -0.03em;
+            &::before {
+                content: '';
+                background: url(../image/button__arrow.svg);
+                background-repeat: no-repeat;
+                width: 15px;
+                height: 25px;
+                position: absolute;
+                top: 25px;
+                right: 45px;
+            }
+        }
+        &-text {
+            font-family: 'Manrope';
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 1.2;
+        }
+    }
+}

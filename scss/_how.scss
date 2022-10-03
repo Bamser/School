@@ -1,0 +1,57 @@
+.how {
+    margin-top: 55px;
+    &__text {
+        max-width: 642px;
+        margin: 25px auto;
+    }
+    &__video-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin: 50px auto;
+      width: 763px;
+      height: 442px;
+      background-image: url(../image/how_bg.webp);
+    }
+    &__video {
+    margin: auto;
+    max-width: 585px;
+    border-radius: 17px;
+    background: rgba(25, 26, 38, 1);
+    & img {
+        margin-bottom: 25px;
+        opacity: .1;
+     }
+    }
+}
+.circle {
+    position: absolute;
+    top: 35%;
+    right: 40%;
+    width: 122px;
+    height: 122px;
+    background: rgba(241, 85, 37, 0.32);
+    border-radius: 82px;
+    &__wrap {
+        position: absolute;
+        top: 16%;
+        right: 17%;
+        text-align: center;
+        width: 80px;
+        height: 80px;
+        background: #F15525;
+        border-radius: 82px;
+        transition: 5ms;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+    & img {
+        position: absolute;
+        top: 35%;
+        right: 35%;
+        margin: auto;
+        width: 20px;
+        height: 18px;
+    }
+}
