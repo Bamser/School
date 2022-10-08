@@ -607,3 +607,73 @@ header {
 .baba {
   min-width: 300px;
 }
+
+.table {
+  margin-top: 50px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  padding: 35px;
+}
+.table__row {
+  padding: 16px 255px 16px 19px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  text-align: left;
+  line-height: 1.2;
+}
+.table__row-blue {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #38BFF2;
+}
+.table__row-black {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.table__row-gray {
+  background-color: #F3F3F3;
+  border-radius: 10px;
+}
+
+.blu {
+  margin-left: 125px;
+}
+
+.three {
+  margin-right: 250px;
+}
+
+.five {
+  margin-right: 100px;
+}
+
+.six {
+  margin-left: 150px;
+}
+
+.seven {
+  margin-right: 60px;
+}
+
+.eight {
+  margin-right: 30px;
+}
+
+.nine {
+  margin-left: 220px;
+}
+
+.foot {
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #8E8E8E;
+}
