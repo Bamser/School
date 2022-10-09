@@ -677,3 +677,41 @@ header {
   line-height: 1.5;
   color: #8E8E8E;
 }
+
+.megafon {
+  margin-top: 40px;
+  padding: 65px 51px 65px 175px;
+  background-color: #EAF2F5;
+  background-image: url(../image/megafon.webp);
+  background-repeat: no-repeat;
+  background-position: 54px 50%;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+.megafon__button {
+  width: 311px;
+  height: 70px;
+  position: relative;
+  padding: 15px 91px 15px 26px;
+  display: block;
+  margin-left: 30px;
+  font-size: 20px;
+  line-height: 1;
+}
+.megafon__button::before {
+  content: "";
+  background: url(../image/button__arrow.svg);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 25px;
+  position: absolute;
+  top: 28px;
+  right: 65px;
+}
+.megafon__text {
+  max-width: 600px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.3;
+}
