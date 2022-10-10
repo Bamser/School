@@ -112,6 +112,7 @@ button {
   text-align: inherit;
   padding: 0;
   background-color: inherit;
+  transition: 500ms;
 }
 
 ul {
@@ -205,6 +206,7 @@ header {
   background-color: #38BFF2;
   font-weight: 500;
   font-size: 12px;
+  transition: 500ms;
   border-radius: 34px;
 }
 .header__button:hover {
@@ -449,7 +451,7 @@ header {
   height: 80px;
   background: #F15525;
   border-radius: 82px;
-  transition: 5ms;
+  transition: 500ms;
 }
 .circle__wrap:hover {
   transform: scale(1.2);
@@ -714,4 +716,96 @@ header {
   font-weight: 400;
   font-size: 17px;
   line-height: 1.3;
+}
+
+.footer {
+  margin-top: 80px;
+}
+.footer__items {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__down {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  padding-top: 30px;
+  border-top: 1px solid #D8D8D8;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__down span {
+  display: block;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #8E8E8E;
+}
+.footer__down a {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #8E8E8E;
+}
+.footer__down a:hover {
+  color: #22253B;
+}
+
+.item__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+.item__left-desc {
+  display: flex;
+  gap: 19px;
+}
+.item__left-logo img {
+  width: 87px;
+  height: 32px;
+}
+.item__left-logo-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #8E8E8E;
+}
+.item__left-social {
+  padding-bottom: 60px;
+  display: flex;
+  gap: 16px;
+}
+.item__left-social img {
+  width: 35px;
+  height: 35px;
+  transition: 600ms;
+}
+.item__left-social img:hover {
+  transform: scale(1.2);
+}
+
+.item__center ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.item__center a {
+  font-size: 13px;
+}
+.item__center a:hover {
+  color: #38BFF2;
+}
+
+.item__right-desc-phone {
+  margin-bottom: 10px;
+}
+.item__right-desc-phone a {
+  color: #38BFF2;
+}
+.item__right-data {
+  margin-top: 65px;
+}
+.item__right-data span {
+  display: block;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #8E8E8E;
 }
