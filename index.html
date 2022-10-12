@@ -43,7 +43,7 @@
                         а не просто сертификат</div>
                     <div class="header__main-desc-text">Пройдите тестирование, чтобы получить доступ к бесплатным
                         вводным урокам</div>
-                    <button class="header__main-desc-button">Пройти тестирование</button>
+                    <button class="header__main-desc-button"><a href="#popup">Пройти тестирование</a></button>
                 </div>
                 <div class="header__main-image"><img src="./image/main.png" alt="main"></div>
             </div>
@@ -172,7 +172,7 @@
                     </div>
                 </div>
                 <div class="numbers__desc">
-                    <button class="numbers__desc-button button">Начать обучение</button>
+                    <button class="numbers__desc-button button"><a href="#popup">Начать обучение</a></button>
                     <div class="numbers__desc-text ">Попробуйте, первые уроки бесплатны, но нужно пройти тестирование
                     </div>
                 </div>
@@ -260,7 +260,7 @@
                         Только
                         так мы можем гарантировать, что вы получите все знания, предусмотренные учебной программой.
                     </div>
-                    <button class="megafon__button button">Начать обучение</button>
+                    <button class="megafon__button button"><a href="#popup">Начать обучение</a></button>
                 </div>
             </div>
         </section>
@@ -313,6 +313,19 @@
             </div>
         </div>
     </footer>
+    <div id="popup" class="popup">
+        <a href="#" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <!-- Чтобы не бросало в начало страницы при закрытии Popup привязываем к шапке фиксированной -->
+                <a href="##" class="popup__close">X</a>
+                <div class="popup__title">Перед тем, как приступить к обучению, необходимо пройти небольшой тест</div>
+                <div class="popup__text">Тест состоит из 4 заданий на логическое мышление и прочие навыки, необходимые
+                    программисту. Задания не самые простые. Но ни в коем случае не выбирайте ответы наугад. Если вы не
+                    можете дать правильный ответ – выбирайте пункт «Не знаю».</div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
